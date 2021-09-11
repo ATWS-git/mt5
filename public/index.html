@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width,initial-scale=0.3,user-scalable=yes" />
+        <link rel="icon" href="/favicon.ico" />
+        <title></title>
+        <% for (var i in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.css){ %>
+        <link href="<%=htmlWebpackPlugin.options.cdn.css[i] %>" rel="stylesheet" />
+        <% } %>
+    </head>
+    <body>
+        <style></style>
+        <noscript>
+            <strong>
+                We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without
+                JavaScript enabled. Please enable it to continue.
+            </strong>
+        </noscript>
+        <div id="app"></div>
+        <!-- built files will be auto injected -->
+        <% for (var j in htmlWebpackPlugin.options.cdn && htmlWebpackPlugin.options.cdn.js){ %>
+        <script src="<%=htmlWebpackPlugin.options.cdn.js[j] %>"></script>
+        <% } %> <% if(process.env.NODE_ENV === 'production'){ %>
+        <script>
+            !window.Vue &&
+                document.write(
+                    unescape('%3Cscript src="/cdnjs/vue.runtime.min.js"%3E%3C/script%3E')
+                );
+        </script>
+        <script>
+            !window.VueRouter &&
+                document.write(
+                    unescape('%3Cscript src="/cdnjs/vue-router.min.js"%3E%3C/script%3E')
+                );
+        </script>
+        <script>
+            !window.Vuex &&
+                document.write(unescape('%3Cscript src="/cdnjs/vuex.min.js"%3E%3C/script%3E'));
+        </script>
+        <script>
+            !window.axios &&
+                document.write(unescape('%3Cscript src="/cdnjs/axios.min.js"%3E%3C/script%3E'));
+        </script>
+        <% } %>
+    </body>
+</html>

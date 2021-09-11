@@ -1,0 +1,370 @@
+@font-face {
+    font-family: 'client-iconfont191011';
+    src:  
+      url('client-iconfont191011.ttf?muulbg') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="anticon-"], [class*=" anticon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: 'client-iconfont191011' !important;
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .anticon-points_mall:before {
+    content: "\e900";
+  }
+  .anticon-icon_time:before {
+    content: "\e901";
+  }
+  .anticon-icon_historyfollow:before {
+    content: "\e902";
+  }
+  .anticon-1:before {
+    content: "\e904";
+  }
+  .anticon-home:before {
+    content: "\e1163";
+  }
+  .anticon-total_deposit:before {
+    content: "\e1400";
+  }
+  .anticon-total_rebate:before {
+    content: "\e1401";
+  }
+  .anticon-total_spend:before {
+    content: "\e1402";
+  }
+  .anticon-wallet:before {
+    content: "\e1404";
+  }
+  .anticon-Unselected:before {
+    content: "\e1500";
+  }
+  .anticon-undone:before {
+    content: "\e1501";
+  }
+  .anticon-transaction1:before {
+    content: "\e1503";
+  }
+  .anticon-send:before {
+    content: "\e1504";
+  }
+  .anticon-right1:before {
+    content: "\e1506";
+  }
+  .anticon-purse:before {
+    content: "\e1507";
+  }
+  .anticon-notice1:before {
+    content: "\e1510";
+  }
+  .anticon-Language:before {
+    content: "\e1511";
+  }
+  .anticon-move:before {
+    content: "\e1512";
+  }
+  .anticon-menu1:before {
+    content: "\e1513";
+  }
+  .anticon-install:before {
+    content: "\e1514";
+  }
+  .anticon-home1:before {
+    content: "\e1515";
+  }
+  .anticon-funds1:before {
+    content: "\e1517";
+  }
+  .anticon-help:before {
+    content: "\e1518";
+  }
+  .anticon-gray-caret-right:before {
+    content: "\e1519";
+  }
+  .anticon-form-instal:before {
+    content: "\e1520";
+  }
+  .anticon-down1:before {
+    content: "\e1523";
+  }
+  .anticon-download1:before {
+    content: "\e1524";
+  }
+  .anticon-examine1:before {
+    content: "\e1525";
+  }
+  .anticon-file1:before {
+    content: "\e1526";
+  }
+  .anticon-double-left:before {
+    content: "\e1527";
+  }
+  .anticon-complaints:before {
+    content: "\e1528";
+  }
+  .anticon-delete1:before {
+    content: "\e1529";
+  }
+  .anticon-collapse-unfolded:before {
+    content: "\e1530";
+  }
+  .anticon-completed:before {
+    content: "\e1531";
+  }
+  .anticon-calendar1:before {
+    content: "\e1532";
+  }
+  .anticon-collapse-right:before {
+    content: "\e1533";
+  }
+  .anticon-caveat:before {
+    content: "\e1534";
+  }
+  .anticon-account:before {
+    content: "\e1535";
+  }
+  .anticon-close1:before {
+    content: "\e1536";
+  }
+  .anticon-caret-right:before {
+    content: "\e1537";
+  }
+  .anticon-work_order2:before {
+    content: "\e1539";
+  }
+  .anticon-transaction:before {
+    content: "\e1540";
+  }
+  .anticon-point:before {
+    content: "\e1548";
+  }
+  .anticon-setting2:before {
+    content: "\e1550";
+  }
+  .anticon-selected:before {
+    content: "\e1552";
+  }
+  .anticon-schedule:before {
+    content: "\e1553";
+  }
+  .anticon-right:before {
+    content: "\e1554";
+  }
+  .anticon-progress_ongoing:before {
+    content: "\e1555";
+  }
+  .anticon-notice:before {
+    content: "\e1556";
+  }
+  .anticon-progress_completed:before {
+    content: "\e1558";
+  }
+  .anticon-read_message:before {
+    content: "\e1560";
+  }
+  .anticon-menu:before {
+    content: "\e1561";
+  }
+  .anticon-mobile:before {
+    content: "\e1562";
+  }
+  .anticon-funds:before {
+    content: "\e1564";
+  }
+  .anticon-Hand_over:before {
+    content: "\e1565";
+  }
+  .anticon-edit:before {
+    content: "\e1566";
+  }
+  .anticon-message:before {
+    content: "\e1567";
+  }
+  .anticon-left:before {
+    content: "\e1568";
+  }
+  .anticon-double_left:before {
+    content: "\e1569";
+  }
+  .anticon-down:before {
+    content: "\e1570";
+  }
+  .anticon-download:before {
+    content: "\e1571";
+  }
+  .anticon-delete:before {
+    content: "\e1572";
+  }
+  .anticon-file:before {
+    content: "\e1573";
+  }
+  .anticon-examine:before {
+    content: "\e1574";
+  }
+  .anticon-client:before {
+    content: "\e1575";
+  }
+  .anticon-cutover:before {
+    content: "\e1576";
+  }
+  .anticon-close:before {
+    content: "\e1577";
+  }
+  .anticon-change_password:before {
+    content: "\e1578";
+  }
+  .anticon-calendar:before {
+    content: "\e1579";
+  }
+  .anticon-menu_right:before {
+    content: "\e1580";
+  }
+  .anticon-boc:before {
+    content: "\e1581";
+  }
+  .anticon-caret_down:before {
+    content: "\e1582";
+  }
+  .anticon-bank_locate:before {
+    content: "\e1583";
+  }
+  .anticon-add:before {
+    content: "\e1584";
+  }
+  .anticon-the-account:before {
+    content: "\e1588";
+  }
+  .anticon-selected2:before {
+    content: "\e1589";
+  }
+  .anticon-remainder:before {
+    content: "\e1591";
+  }
+  .anticon-income:before {
+    content: "\e1592";
+  }
+  .anticon-total_account:before {
+    content: "\e1593";
+  }
+  .anticon-selected1:before {
+    content: "\e1594";
+  }
+  .anticon-today_add_account:before {
+    content: "\e1595";
+  }
+  .anticon-today_deposit:before {
+    content: "\e1596";
+  }
+  .anticon-today_rebate:before {
+    content: "\e1597";
+  }
+  .anticon-today_spend:before {
+    content: "\e1598";
+  }
+  .anticon-total_balance:before {
+    content: "\e1599";
+  }
+  .anticon-work_order:before {
+    content: "\e1612";
+  }
+  .anticon-system:before {
+    content: "\e1613";
+  }
+  .anticon-customer_transaction:before {
+    content: "\e1614";
+  }
+  .anticon-customer_management:before {
+    content: "\e1615";
+  }
+  .anticon-money_management:before {
+    content: "\e1616";
+  }
+  .anticon-drop_out:before {
+    content: "\e1617";
+  }
+  .anticon-account_security:before {
+    content: "\e1618";
+  }
+  .anticon-controlpanel:before {
+    content: "\e1619";
+  }
+  .anticon-commission_managemen:before {
+    content: "\e1620";
+  }
+  .anticon-english:before {
+    content: "\e1621";
+  }
+  .anticon-personal_center:before {
+    content: "\e1622";
+  }
+  .anticon-rebatesetting:before {
+    content: "\e1623";
+  }
+  .anticon-promotion:before {
+    content: "\e1624";
+  }
+  .anticon-setting:before {
+    content: "\e1625";
+  }
+  .anticon-traditional:before {
+    content: "\e1626";
+  }
+  .anticon-transaction_manageme:before {
+    content: "\e1627";
+  }
+  .anticon-news:before {
+    content: "\e1628";
+  }
+  .anticon-simplified:before {
+    content: "\e1629";
+  }
+  .anticon-Community:before {
+    content: "\e162a";
+  }
+  .anticon-online:before {
+    content: "\e162b";
+  }
+  .anticon-wire_transfer:before {
+    content: "\e162c";
+  }
+  .anticon-digital_currency:before {
+    content: "\e162d";
+  }
+  .anticon-language:before {
+    content: "\e162e";
+  }
+  .anticon-Remittance_deposit:before {
+    content: "\e162f";
+  }
+  .anticon-audit_record:before {
+    content: "\e1630";
+  }
+  .anticon-paihangbang1:before {
+    content: "\e1632";
+  }
+  .anticon-eye_close:before {
+    content: "\e1900";
+  }
+  .anticon-eye_open:before {
+    content: "\e1901";
+  }
+  .anticon-icon_income:before {
+    content: "\e1902";
+  }
+  .anticon-icon_following:before {
+    content: "\e1903";
+  }
+  

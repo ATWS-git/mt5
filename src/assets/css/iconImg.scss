@@ -1,0 +1,101 @@
+// 一般不在表格中使用的icon
+.iconImg {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-repeat: no-repeat;
+    background-image: url('../image/system-icon.png');
+}
+
+.iconImg-camera {
+    background-position: -260px -110px;
+}
+
+.iconImg-menu-close {
+    background-position: -416px -50px;
+}
+
+.iconImg-menu-open {
+    background-position: -442px -50px;
+}
+
+.iconImg-menu-refresh {
+    background-position: -0px -80px;
+}
+
+.iconImg-menu-head {
+    background-position: -104px -80px;
+}
+
+.iconImg-menu-notice {
+    width: 18px;
+    height: 18px;
+    background-position: -78px -80px;
+}
+
+.iconImg-menu-qp {
+    background-position: -26px -80px;
+}
+
+.iconImg-menu-outqp {
+    background-position: -52px -80px;
+}
+
+.iconImg-up {
+    width: 10px;
+    height: 10px;
+    background-position: -40px -0px;
+}
+
+.iconImg-down {
+    width: 10px;
+    height: 10px;
+    background-position: -60px -0px;
+}
+
+.iconImg-home-top {
+    width: 44px;
+    height: 44px;
+    background-position: -120px -320px;
+}
+
+.iconImg-home-help {
+    background-position: -130px -80px;
+    margin-left: 10px;
+}
+
+.iconImg-message-waning {
+    width: 20px;
+    height: 20px;
+    background-position: -420px -140px;
+}
+
+.iconImg-emoji-white {
+    width: 20px;
+    height: 20px;
+    background-position: -150px -140px;
+}
+
+.iconImg-image-white {
+    width: 20px;
+    height: 20px;
+    background-position: -60px -140px;
+}
+
+// .iconImg-theme-draw {
+//   width: 40px;
+//   height: 40px;
+//   background-position: -100px -210px;
+// }
+
+.iconImg-add-theme {
+    width: 40px;
+    height: 40px;
+    background-position: -100px -210px;
+}
+
+.iconImg-upload-theme {
+    width: 40px;
+    height: 40px;
+    background-position: -150px -210px;
+}

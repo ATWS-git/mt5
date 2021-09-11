@@ -1,0 +1,158 @@
+// 一般使用在表格中
+.icon {
+  display: inline-block;
+  width: 14px;
+  height: 14px;
+  vertical-align: -0.15em;
+  margin-right: 8px;
+  background-repeat: no-repeat;
+  background-image: url('../image/system-icon.png');
+}
+
+.icon-online {
+  background-position: -360px -0px;
+}
+
+.icon-noonline {
+  background-position: -384px -0px;
+}
+
+.icon-ok {
+  background-position: -0px -20px;
+}
+
+.icon-pendding {
+  background-position: -72px -20px;
+}
+
+.icon-no {
+  background-position: -96px -20px;
+}
+
+.icon-tip {
+  background-position: -120px -20px;
+}
+
+.icon-status-success {
+  background-position: -264px -0px;
+}
+
+.icon-status-error {
+  background-position: -312px -0px;
+}
+
+.icon-status-warning {
+  background-position: -288px -0px;
+}
+
+.icon-status-info {
+  background-position: -336px -0px;
+}
+
+.icon-status-kaipan {
+  width: 24px;
+  height: 24px;
+  vertical-align: bottom;
+  background-position: -102px -170px;
+}
+
+.icon-status-fengpan {
+  width: 24px;
+  height: 24px;
+  vertical-align: bottom;
+  background-position: -68px -170px;
+}
+
+.icon-status-weikaipan {
+  width: 24px;
+  height: 24px;
+  vertical-align: bottom;
+  background-position: -136px -170px;
+}
+
+.icon-status-xiaoshouzhong {
+  width: 24px;
+  height: 24px;
+  vertical-align: bottom;
+  background-position: -170px -170px;
+}
+
+.icon-audit-success {
+  background-position: -216px -20px;
+}
+
+.icon-audit-error {
+  background-position: -264px -20px;
+}
+
+.icon-audit-warning {
+  background-position: -240px -20px;
+}
+
+
+.icon-edit {
+  width: 12px;
+  height: 12px;
+  background-position: -220px -0px;
+}
+
+.icon-title-help {
+  background-position: -240px -0px;
+  margin-left: 10px;
+}
+
+.close1 {
+  background-position: -360px -20px;
+}
+
+.close2 {
+  background-position: -336px -20px;
+}
+
+.win3 {
+  background-position: -432px -20px;
+}
+
+.win2 {
+  background-position: -384px -20px;
+}
+
+.win4 {
+  background-position: -408px -20px;
+}
+
+.icon_message_badge {
+  background-position: -144px -20px;
+}
+
+.icon_report_fixed {
+  background-position: -130px -110px;
+}
+
+.icon_report_back {
+  background-position: -416px -80px;
+}
+
+.icon-chief-arrow {
+  margin-right: 0;
+  background-position: -408px 0;
+}
+
+.icon-login-user {
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+  background-position: -390px -110px;
+}
+.icon-login-pwd {
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+  background-position: -416px -110px;
+}
+.icon-login-cap {
+  width: 16px;
+  height: 16px;
+  margin-right: 0;
+  background-position: -442px -110px;
+}
