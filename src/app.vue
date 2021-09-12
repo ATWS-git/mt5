@@ -15,7 +15,7 @@ export default {
     created() {
         const formData = new FormData();
         formData.append('username', '123');
-
+        console.log(1);
         // this.$axios
         //     .post('http://client.trpforex.com/api/fund/graph?t=1631346508&month=3', formData)
         //     .then((res) => {})
